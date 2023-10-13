@@ -19,6 +19,8 @@ public class Main {
                    " \t\tYazar İsmi: "+item.getAuthorName());
        }
         System.out.println("______________________________________________");
+        
+        // Sayfa sayısına göre sıralanmış liste
         System.out.println("Sayfa sayısına göre sıralanmış liste:");
         Set<ComparePageNumbers> newBookList = new TreeSet<ComparePageNumbers>();
 
